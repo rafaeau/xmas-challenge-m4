@@ -6,8 +6,20 @@
   background-color: black;
 }
 
+.search-bar {
+  background-color: black;
+}
+
 .text-nav {
   color: white !important;
+}
+
+.card-city {
+  color: white;
+}
+
+.text-pill {
+  color: black !important;
 }
 
 .pill-nav {

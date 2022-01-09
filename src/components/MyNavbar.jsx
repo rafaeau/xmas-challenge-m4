@@ -14,9 +14,9 @@ class MyNavbar extends Component {
                         <img src={logo} alt="logo" style={{ width: "100px" }} />
                     </Navbar.Brand>
                     <Nav className="text-center">
-                        <Nav.Link href="#home" className="text-nav">Places to stay</Nav.Link>
+                        <Nav.Link href="#home" className="text-nav mr-2">Places to stay</Nav.Link>
                         <Nav.Link href="#features" className="text-nav">Experiences</Nav.Link>
-                        <Nav.Link href="#pricing" className="text-nav">Online experiences</Nav.Link>
+                        <Nav.Link href="#pricing" className="text-nav ml-2">Online experiences</Nav.Link>
                     </Nav>
                     <Nav>
                         <Nav.Link href="#home" className="text-nav">Become a host</Nav.Link>
