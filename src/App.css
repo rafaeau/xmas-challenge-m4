@@ -26,6 +26,16 @@
   background-color: white !important;
 }
 
+@media (max-width: 600px) {
+  #pill-navbar {
+    display: none;
+  }
+}
+
 .items-pill {
   margin-top: 2px;
+}
+
+#text-big-card {
+  text-shadow: -1px 1px 10px rgba(1, 1, 1, 0.75)
 }

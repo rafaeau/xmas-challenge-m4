@@ -18,7 +18,7 @@ class MyNavbar extends Component {
                         <Nav.Link href="#features" className="text-nav">Experiences</Nav.Link>
                         <Nav.Link href="#pricing" className="text-nav ml-2">Online experiences</Nav.Link>
                     </Nav>
-                    <Nav>
+                    <Nav id='pill-navbar'>
                         <Nav.Link href="#home" className="text-nav">Become a host</Nav.Link>
                         <Nav.Link href="#home"><BiGlobe style={{ fontSize: "20px" }} className="mt-n1 text-nav" /></Nav.Link>
                         <Badge pill className="pill-nav ml-2">
