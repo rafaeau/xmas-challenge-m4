@@ -1,5 +1,5 @@
 import { Component } from 'react';
-import { Container, Card } from "react-bootstrap";
+import { Container, Card, Button } from "react-bootstrap";
 import img1 from "../assets/img1.jpg";
 import img2 from "../assets/img2.jpg";
 
@@ -16,6 +16,7 @@ class DiscoverySection extends Component {
                             <Card.Title>
                                 <h1>Things to do <br />
                                 on your trip</h1>
+                                <Button variant="light" id="button-img"><b>Experiences</b></Button>
                                 </Card.Title>
                         </Card.ImgOverlay>
                     </Card>
@@ -26,6 +27,7 @@ class DiscoverySection extends Component {
                             <Card.Title id='text-big-card'>
                                 <h1>Things to do<br />
                                 from home</h1>
+                                <Button variant="light" id="button-img"><b>Online experiences</b></Button>
                                 </Card.Title>
                         </Card.ImgOverlay>
                     </Card>

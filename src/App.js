@@ -4,6 +4,7 @@ import MyNavbar from './components/MyNavbar';
 import MySearch from './components/MySearch';
 import InspirationSection from './components/InspirationSection'
 import DiscoverySection from './components/DiscoverySection'
+import MyFooter from "./components/MyFooter";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
     {/* <MySearch/> */}
     <InspirationSection/>
     <DiscoverySection/>
+    <MyFooter/>
     </>
   )
 }

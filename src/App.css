@@ -39,3 +39,13 @@
 #text-big-card {
   text-shadow: -1px 1px 10px rgba(1, 1, 1, 0.75)
 }
+
+#button-img {
+  margin-top: 8px;
+  border-radius: 7px;
+}
+
+.footer {
+  color: black;
+  background-color: rgb(247,247,247);
+}
